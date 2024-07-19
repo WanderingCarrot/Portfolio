@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.head-container{
+    background-color: #d9ce96;
+}
+header {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.navbar-interact{
+    display:flex;
+    justify-content: space-between;
+}
+.navbar-interact ul {
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+.navbar-interact ul li a{
+    text-decoration: none;
+    color: #4d4c49;
+}
+.container{
+    margin-left: 50px;
+}
