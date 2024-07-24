@@ -63,7 +63,7 @@
         display: flex;
         justify-content: center;
     }
-    .body-container .project1{
+    .body-container .project2{
         padding-right: 10%;
         margin-bottom: 30px;
     }
@@ -195,6 +195,9 @@
     .navbar-interact ul li a{
         text-decoration: none;
         color: #4d4c49;
+    }
+    .navbar-interact ul li a:hover{
+        color: rgb(236, 74, 10);
     }
     .container{
         margin-inline: 100px;
@@ -328,6 +331,27 @@
       }
       .noti-text{
         font-size: 14px;
+      }
+      .container-about{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+      }
+      .container-about img{
+        width: 400px;
+        height: auto;
+        border-radius: 8px;
+      }
+      .links{
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
+        gap: 30px;
+      }
+      .links a{
+        color: #4d4c49;
+        text-decoration: none;
+        font-size: 20px;
       }
     @keyframes slide {
         0% {
